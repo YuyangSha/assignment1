@@ -12,13 +12,14 @@
         android:id="@+id/scoreTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="34sp" />
 
     <Button
         android:id="@+id/climbButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="climb" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,12 +30,12 @@
         android:id="@+id/fallButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="fall" />
 
     <Button
         android:id="@+id/resetButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="reset" />
 
 </LinearLayout>
